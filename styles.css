@@ -107,7 +107,6 @@ ul{
 
 .nav__bottom{
     background-color: white;
-    padding-top: 0.5em;
 }
 
 .nav__bottom .nav__list{
@@ -116,9 +115,19 @@ ul{
     display: flex;
     justify-content: center;
 }
+.nav__bottom .nav__list .list__item{
+    padding-top: 0.5em;
+}
 
 .nav__bottom .nav__list a{
     color: var(--primary-color2);
+}
+
+.nav__bottom .list__item:hover{
+    background-color: var(--primary-color2);
+}
+.nav__bottom .list__item:hover a{
+    color: white;
 }
 
 main{
